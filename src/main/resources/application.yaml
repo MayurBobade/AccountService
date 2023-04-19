@@ -1,0 +1,24 @@
+jwt: 
+ secret: javainuse
+server:
+ port: 9090
+ 
+
+security:
+  oauth2:
+#    client:  
+#      client-id: mayurbobde-client
+#      client-secret: mayurbobde-secret
+    resource:
+#      token-info-uri: http://localhost:8080/oauth/check_token
+       jwt:
+        key-value: 
+         -----BEGIN PUBLIC KEY-----
+         MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAku9omiDBM2NHWRMZKGRe
+         VE3TKBivw7SVuD3Hk36VMBaRAT4lZZtLtEW1RFlo/etTqQEun0Ijv4Sw04GsCpp9
+         OIHmPPQpxCSVV/syJX9Av99gLUPgG33RjaxRZliJyNTe5305ViiMVZTI/YyMuetF
+         srEhpcNJykpnwukp/Q6RXE+EjINbCEixGBL5kpsbHZXBpbMdR1UsVLrnzV0qZUea
+         6PA+R7Oic6HtQPA4FoI0HW2voVFY1lWlx/cdAHfsTTmbIIUs0YRENyFUk3Bj/1Ve
+         Zrg8X/gMNkgcZ9aM/+8EF0ZqEcNXbg/k7NwkjTQnPAoiSQySoLNFy35v3pR4YjkX
+         5QIDAQAB
+         -----END PUBLIC KEY----- 
